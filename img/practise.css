@@ -1,0 +1,486 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+font-family: 'Montserrat', sans-serif;
+}
+
+.meu ul li{
+    list-style: none;
+    padding: 0 20px;
+    
+}
+
+.meu ul li a{
+text-decoration: none;
+
+}
+.head{
+    height: 150px;
+    background-color: brown;
+}
+.honk:hover::after{
+    content: "";
+    height: 2px;
+    width:100%;
+    background-color: chocolate;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    
+    
+
+}
+
+.may::after{
+    content: "";
+    height: 2px;
+    width:100%;
+    background-color: #072985;
+position: absolute;
+left: 0;
+right: 0;
+
+
+}
+
+
+.lkj::before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    opacity: 50%;
+    background-color: aqua;
+    position:absolute;
+    
+   
+}
+.lll{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    background: red;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cadm:hover::before{
+content: "";
+height: 100%;
+width: 100%;
+background:linear-gradient(to bottom, #f11e6b, #141414);
+position: absolute;
+opacity: 50%;
+}
+
+
+
+.cadm:hover .h33{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    z-index: 999999999;
+}
+
+
+
+.problem{
+    height: 1000px;
+    background-color: #af2852;
+
+}
+
+
+
+.bdc{
+    position: absolute;
+   
+    z-index: 999;
+    top: 50%;
+    left: 10%;
+    text-align: center;
+}
+
+
+
+
+
+
+.pictureDesign{
+    position: absolute !important;
+    left: 20%;
+}
+
+.menu ul li{
+    list-style: none;
+  display:inline-block;
+    margin: 0px 20px;
+
+}
+.menu ul li a{
+    font-size:28px;
+    color: #f11e6b;
+    text-decoration: none;
+    
+}
+
+.menu ul li a:hover{
+color:white ;
+}
+
+.menu-line::after{
+    content:"";
+    width:0;
+    height:2px;
+    background-color: yellow;
+    transition:.3s;
+    display: block;
+    margin-top:-5px;
+}
+.menu-line:hover::after{
+    width: 100%;
+    transition: width .3s;
+}
+.menu{
+    height: 150px;
+    display:flex;
+    
+    align-items: center;
+}
+
+
+
+
+
+.picture-1:hover::before{
+    content: "";
+    width:100%;
+    height: 100%;
+    background: #af2852;
+    opacity:30%;
+    position:absolute;
+}
+
+
+.hover-pic{
+    background-image:url(/img/business-woman-meeting-with-clients-partners-street.jpg);
+    height:100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hover-pic:hover::before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: #af2852;
+    opacity: 50%;
+    position:absolute;
+
+}
+
+
+.hover-pic:hover .pic2{
+    display: block !important;
+}
+
+
+
+.but1{
+    height:30px;
+    width: 30px;
+    border-radius:50%;
+   background-color: none;
+    border:1px solid red;
+}
+.but1:focus{
+    height: 40px;
+    width: 40px;
+    border-radius:50%;
+    background-color: blue;
+
+}
+.pic{
+ width: 50%;
+}
+.bht{
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: aqua;
+    position: absolute;
+    top:-20px;
+    left:30px;
+
+    
+}
+.pic3{
+    position: relative!important;
+}
+.card-style{
+    background-image:url(/img/business-woman-meeting-with-clients-partners-street.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.pic5:hover::before{
+content: "";
+height:100%;
+width: 100%;
+background:linear-gradient(to bottom, #f11e6b, #141414);
+opacity: 20%;
+position: absolute;
+}
+
+.pic5:hover .pic4{
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 66666;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    justify-content: center;
+
+}
+
+
+.btn8{
+
+   padding: 10px 30px;
+   border-radius:20px;
+   border:1px solid limegreen;
+   margin-top:50px;
+}
+.btn8:hover{
+    background-color: mediumblue;
+}
+.mantha{
+    padding: 10px 30px;
+
+}
+.min{
+    margin-top: 90px!important;
+}
+.form-control{
+    outline: none!important;
+    border: none!important;
+    border-bottom:1px solid red!important;
+    border-radius:0!important;
+
+
+}
+.but-c{
+    padding: 10px;
+    background-color: #af2852;
+    border-radius: 40%;
+    border: none;
+}
+
+.grid-wrapper > div{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    
+}
+
+.grid-wrapper > div > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
+.grid-wrapper{
+    display: grid;
+    grid-gap:10px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: 200px;
+    grid-auto-flow:dense;
+    
+}
+
+
+
+ .tall{
+    grid-row: span 2;
+ }
+.out{
+border-radius: 20px!important;
+
+ }
+ .buo li{
+    list-style: none;
+ }
+ .fa{
+     background-color: aqua;
+ }
+ .tw{
+     background-color: blueviolet;
+ }
+ .lin{
+     background-color: brown;
+
+ }
+ .pin{
+     background-color: cyan;
+ }
+ li{
+    list-style: none;
+ }
+ li a{
+     
+     text-decoration: none;
+     padding:6px 20px;
+     border-radius: 5px;
+     margin-left: 20px;
+ }
+ .input-group-text{
+     background-color:none!important ;
+ }
+.cl{
+    margin-left:5px!important;
+    font-size:10px;
+}
+.pi{
+    width:50px;
+
+}
+
+.pi:hover{
+    width: 100px;
+}
+.pay{
+    padding:30px 65px;
+    border-right: 2px solid white;
+}
+.hoc::before{
+    content: "";
+    width: 4px;
+    height: 100%;
+    background-color: #af2852;
+    position: absolute;
+   z-index: 99999;
+}
+ .fo{
+     background-image: url(/img/happy-cheerful-manager-completing-survey-outside.jpg);
+     height: 100vh;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+ }
+.foo{
+    position: absolute;
+    top: 50%;
+    right: 10%;
+
+    transform: translate(-50%, -50%);
+}
+
+
+.half-border::after{
+    content: "";
+    height: 80px;
+    width: 2px;
+    background: #af2852;
+    position: absolute;
+    z-index: 999999;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    right: 0;
+}
+header{
+    background-color: #f11e6b;
+  
+}
+nav{
+    max-width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+.menu li a{
+
+    display:inline-block;
+}
+.menu a:hover{
+    background-color: blue;
+    color: blueviolet;
+
+}
+.menu li{
+    position: relative;
+}
+.submenu{
+    position: absolute;
+    
+
+   
+   
+}
+.mar::after{
+    content: "";
+    height:2px;
+    width: 100%;
+    background-color: blue;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+   
+ 
+
+
+}
+
+.g::before{
+    content: "";
+    height:100%;
+    width: 2px;
+    background-color: aqua;
+    position: absolute;
+    
+}
+
+
+.formSytles{
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+    justify-content: center !important;
+    align-content: center;
+}
